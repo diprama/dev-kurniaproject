@@ -28,13 +28,35 @@
 	<!-- Revolution Slider -->
 	<link rel="stylesheet" href="plugins/rs-plugin-6.custom/css/rs6.css"> </head>
 
-<body class="home page template-slider style-simple button-custom layout-full-width no-content-padding no-shadows header-classic header-fw sticky-header sticky-tb-color ab-hide subheader-both-center menu-highlight menuo-right menuo-no-borders footer-copy-center mobile-tb-center mobile-side-slide mobile-mini-mr-ll tablet-sticky mobile-header-mini mobile-sticky be-page-10">
+<body  class="home page template-slider style-simple button-custom layout-full-width no-content-padding no-shadows header-classic header-fw sticky-header sticky-tb-color ab-hide subheader-both-center menu-highlight menuo-right menuo-no-borders footer-copy-center mobile-tb-center mobile-side-slide mobile-mini-mr-ll tablet-sticky mobile-header-mini mobile-sticky be-page-10">
 	<div id="Wrapper">
 		<div id="Header_wrapper">
-			<?php 
-			include "header.php";
-			?>
-			<div class="mfn-main-slider mfn-rev-slider">
+			 <header id="Header">
+				<div id="Top_bar">
+					<div class="row">
+						<div class="column one">
+							<div class="top_bar_left clearfix">
+								<div class="logo">
+									<a id="logo" href="index.php" title="Kurnia Project" data-height="60" data-padding="15"><img class="logo-main scale-with-grid" src="content/kurnia/images/kurnia_logo.png" data-retina="content/kurnia/images/kurnia_logo.png" data-height="48" alt="kurniaproject" /><img class="logo-sticky scale-with-grid" src="content/kurnia/images/kurnia_logo.png" data-retina="content/kurnia/images/kurnia_logo.png" data-height="48" alt="kurnia" /><img class="logo-mobile scale-with-grid" src="content/kurnia/images/kurnia_logo.png" data-retina="content/kurnia/images/kurnia_logo.png" data-height="48" alt="kurniaproject" /><img class="logo-mobile-sticky scale-with-grid" src="content/kurnia/images/kurnia_logo.png" data-retina="content/kurnia/images/kurnia_logo.png" data-height="48" alt="kurnia" /></a>
+								</div>
+								<div class="menu_wrapper">
+									<nav id="menu">
+										<ul id="menu-main-menu" class="menu menu-main">
+											<!-- <li class="current-menu-item"> <a href="#index"><span>HOME</span></a> </li> -->
+											<li> <a href="#home"><span>HOME</span></a> </li>
+											<li> <a href="#services"><span>SERVICES</span></a> </li>
+											<li> <a href="#porto"><span>PORTO</span></a> </li>
+											<li> <a href="#whykurnia"><span>WHY KURNIA? </a></li>
+											<li> <a href="#contacts"><span>CONTACTS</span></a> </li>
+										</ul>
+									</nav><a class="responsive-menu-toggle" href="#" aria-label="Mobile menu"><i class="icon-menu-fine" aria-hidden="true"></i></a> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</header>
+			<div id="home" class="mfn-main-slider mfn-rev-slider">
 					<!-- START Home Nursinghome REVOLUTION SLIDER 6.5.5 -->
 					<p class="rs-p-wp-fix"></p>
 					<rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
@@ -79,24 +101,25 @@
 									<!--
 
 										-->
-									<rs-layer id="slider-1-slide-1-layer-9" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="x:c;xo:330px,330px,0,330px;y:t,t,b,b;yo:200px,200px,385px,385px;" data-text="w:normal;s:90;l:92,92,90,90;fw:300;" data-frame_999="o:0;st:w;" style="z-index:16;font-family:'Manrope';"> Rancang </rs-layer>
+									<rs-layer id="slider-1-slide-1-layer-9" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="x:c;xo:330px,330px,0,330px;y:t,t,b,b;yo:200px,200px,385px,385px;" data-text="w:normal;s:70;l:92,92,90,90;fw:300;" data-frame_999="o:0;st:w;" style="z-index:16;font-family:'Manrope';"> Rancang </rs-layer>
 									<!--
 
 										-->
-									<rs-layer id="slider-1-slide-1-layer-10" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="x:c;xo:365px,310px,0,310px;y:t,t,b,b;yo:300px,300px,294px,294px;" data-text="w:normal;s:90;l:92,92,90,90;fw:800;" data-frame_999="o:0;st:w;" style="z-index:15;font-family:'Manrope';"> Rumah <br> Impianmu</rs-layer>
+									<rs-layer id="slider-1-slide-1-layer-10" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="x:c;xo:330px,310px,0,310px;y:t,t,b,b;yo:300px,300px,294px,294px;" data-text="w:normal;s:70;l:92,92,90,90;fw:800;" data-frame_999="o:0;st:w;" style="z-index:15;font-family:'Manrope';"> Rumah Impianmu </rs-layer>
+
 									<!--
 
-										--><a id="slider-1-slide-1-layer-11" class="rs-layer rev-btn" href="content/kurnia/about.html" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:890px,890px,0,890px;y:t,t,b,b;yo:550px,460px,224px,224px;" data-text="w:normal;s:18,18,25,25;l:40,40,25,25;fw:800;" data-dim="minh:0px,0px,none,0px;" data-padding="t:5,5,10,10;r:35,35,32,32;b:5,5,10,10;l:35,35,32,32;" data-border="bor:36px,36px,36px,36px;" data-frame_999="o:0;st:w;" data-frame_hover="c:#fff;bgc:#6660dc;gs:sliding;bor:36px,36px,36px,36px;bri:120%;" style="z-index:20;background-color:#FF6600;font-family:'Manrope';"> Informasi lebih lanjut </a>
+										--><a id="slider-1-slide-1-layer-11" class="rs-layer rev-btn" href="#contacts" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:890px,890px,0,890px;y:t,t,b,b;yo:430px,460px,224px,224px;" data-text="w:normal;s:18,18,25,25;l:40,40,25,25;fw:800;" data-dim="minh:0px,0px,none,0px;" data-padding="t:5,5,10,10;r:35,35,32,32;b:5,5,10,10;l:35,35,32,32;" data-border="bor:36px,36px,36px,36px;" data-frame_999="o:0;st:w;" data-frame_hover="c:#fff;bgc:#6660dc;gs:sliding;bor:36px,36px,36px,36px;bri:120%;" style="z-index:20;background-color:#FF6600;font-family:'Manrope';"> Informasi lebih lanjut </a>
 									<!--
 
-										--><a id="slider-1-slide-1-layer-12" class="rs-layer" href="content/kurnia/contact.html" target="_self" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:1200px,1200px,0,1200px;y:t,t,b,b;yo:560px,470px,154px,154px;" data-text="w:normal;s:18,18,20,20;l:25,25,24,24;fw:800;" data-border="bos:solid;boc:#000;bow:0,0,2px,0;" data-frame_999="o:0;st:w;" style="z-index:21;font-family:'Manrope';">Konsultasi? Hubungi Kita </a>
+										--><a id="slider-1-slide-1-layer-12" class="rs-layer" href="#contacts" target="_self" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:990px,1200px,0,1200px;y:t,t,b,b;yo:560px,470px,154px,154px;" data-text="w:normal;s:18,18,20,20;l:25,25,24,24;fw:800;" data-border="bos:solid;boc:#000;bow:0,0,2px,0;" data-frame_999="o:0;st:w;" style="z-index:21;font-family:'Manrope';">Konsultasi? Hubungi Kita </a>
 									<!--
 
 										-->
-									<!-- <rs-layer id="slider-1-slide-1-layer-13" data-type="image" data-rsp_ch="on" data-xy="xo:890px,890px,240px,240px;y:t,t,b,b;yo:568px,568px,64px,64px;" data-text="w:normal;s:20,20,9,9;l:0,0,12,12;" data-dim="w:72px,72px,60px,60px;h:72px,72px,60px,60px;" data-frame_999="o:0;st:w;" style="z-index:22;"><img src="content/kurnia/images/dummy.png" class="tp-rs-img rs-lazyload" width="72" height="72" data-lazyload="content/kurnia/images/nursinghome-home-icon1.webp"> </rs-layer> -->
+									<rs-layer id="slider-1-slide-1-layer-13" data-type="image" data-rsp_ch="on" data-xy="xo:890px,890px,240px,240px;y:t,t,b,b;yo:568px,568px,64px,64px;" data-text="w:normal;s:20,20,9,9;l:0,0,12,12;" data-dim="w:72px,72px,60px,60px;h:72px,72px,60px,60px;" data-frame_999="o:0;st:w;" style="z-index:22;"><img src="content/kurnia/images/dummy.png" class="tp-rs-img rs-lazyload" width="72" height="72" data-lazyload="content/kurnia/images/nursinghome-home-icon1.webp"> </rs-layer>
 									<!--
 
-										--><a id="slider-1-slide-1-layer-14" class="rs-layer" href="tel:+61383766284" target="_self" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="xo:1200px,1200px,320px,320px;y:t,t,b,b;yo:620px,620px,64px,64px;" data-text="w:normal;s:20,20,24,24;l:20,20,24,24;fw:700;" data-frame_999="o:0;st:w;" style="z-index:18;font-family:'Manrope';">+62 812-9600-2517 </a>
+										--><a id="slider-1-slide-1-layer-14" class="rs-layer" href="#" target="_self" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="xo:990px,1200px,320px,320px;y:t,t,b,b;yo:620px,620px,64px,64px;" data-text="w:normal;s:20,20,24,24;l:20,20,24,24;fw:700;" data-frame_999="o:0;st:w;" style="z-index:18;font-family:'Manrope';">+62 812-9600-2517 </a>
 									<!--
 										-->
 								</rs-slide>
@@ -106,8 +129,8 @@
 					<!-- END REVOLUTION SLIDER -->
 				</div>
 		</div>
-		<div id="Content">
-			<div class="section mcb-section equal-height-wrap container" style="padding-top:40px;padding-bottom:40px">
+		<div id="Content" >
+			<div id="services" class="section mcb-section equal-height-wrap container" style="padding-top:40px;padding-bottom:40px">
 				<div class="row">
 					<div class="col-md-7 valign-top clearfix" data-col="one-second">
 						<div class="column_attr clearfix mobile_align_center">
@@ -126,8 +149,8 @@
 					<div class="col-md-4" data-col="one-third" style="padding:0 2%">
 						<div class="hover_color">
 							<div class="hover_color_bg">
-								<a href="content/kurnia/center.html">
-									<div class="hover_color_wrapper" style="padding:60px 40px 45px;"><img class="scale-with-grid" src="content/kurnia/images/interior_logo.png" />
+								<a href="interior.php">
+									<div class="hover_color_wrapper" style="padding:60px 40px 45px;"><img class="scale-with-grid" src="content/kurnia/images/interior.png" />
 										<hr class="no_line" style="margin: 0 auto 20px auto" />
 										<h5 style="color: #FF6600">Desain Interior </h5>
 										<p style="color: #8f8f8f;"> Kami mengubah ruangan Anda menjadi karya seni yang fungsional, dengan desain interior yang memadukan estetika dan kenyamanan, sesuai dengan gaya hidup dan preferensi Anda. </p>
@@ -139,8 +162,8 @@
 					<div class="col-md-4" data-col="one-third" style="padding:0 2%">
 						<div class="hover_color">
 							<div class="hover_color_bg">
-								<a href="content/kurnia/contact.html">
-									<div class="hover_color_wrapper" style="padding:60px 40px 45px;"><img class="scale-with-grid" src="content/kurnia/images/konstruksi_logo.png" />
+								<a href="construction.php">
+									<div class="hover_color_wrapper" style="padding:60px 40px 45px;"><img class="scale-with-grid" src="content/kurnia/images/konstruksi.png" />
 										<hr class="no_line" style="margin: 0 auto 20px auto" />
 										<h5 style="color: #FF6600">Konstruksi</h5>
 										<p style="color: #8f8f8f;"> Kami mengubah ruangan Anda menjadi karya seni yang fungsional, dengan desain interior yang memadukan estetika dan kenyamanan, sesuai dengan gaya hidup dan preferensi Anda.</p>
@@ -152,8 +175,8 @@
 					<div class="col-md-4" data-col="one-third" style="padding:0 2%">
 						<div class="hover_color">
 							<div class="hover_color_bg">
-								<a href="content/kurnia/QA.html">
-									<div class="hover_color_wrapper" style="padding:60px 40px 45px;"><img class="scale-with-grid" src="content/kurnia/images/furnitur_logo.png" />
+								<a href="furniture.php">
+									<div class="hover_color_wrapper" style="padding:60px 40px 45px;"><img class="scale-with-grid" src="content/kurnia/images/furnitur.png" />
 										<hr class="no_line" style="margin: 0 auto 20px auto" />
 										<h5 style="color: #FF6600">Furnitur</h5>
 										<p style="color: #8f8f8f;"> Kami mengubah ruangan Anda menjadi karya seni yang fungsional, dengan desain interior yang memadukan estetika dan kenyamanan, sesuai dengan gaya hidup dan preferensi Anda. </p>
@@ -164,7 +187,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="section mcb-section equal-height-wrap" style="padding-top:120px;padding-bottom:80px;background-color:#f6f6f6;background-image:url(content/kurnia/images/nursinghome-section-bg2.webp);background-repeat:no-repeat;background-position:left center">
+			<div  id="porto"  class="section mcb-section equal-height-wrap" style="padding-top:120px;padding-bottom:80px;background-color:#f6f6f6;background-image:url(content/kurnia/images/nursinghome-section-bg2.webp);background-repeat:no-repeat;background-position:left center">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6 valign-middle clearfix" data-col="one-second" style="padding:10% 10% 0 0">
@@ -185,11 +208,11 @@
 										<h5>Donec ultrices libero libero</h5> </div>
 								</div> -->
 								<div class="col-12">
-									<hr class="no_line" style="margin: 0 auto 50px auto" /> </div>
-								<div class="column mcb-column one column_button"> <a class="button button_size_2" href="content/kurnia/about.html"><span class="button_label"><i class="fa fa-instagram" style="font-size:18px"> </i>   CEK AKTIFITAS KAMI </span></a> </div>
+									<hr class="no_line" style="margin: 0 auto 0px auto" /> </div>
+								<div class="column mcb-column one column_button"> <a class="button button_size_2" href="https://www.instagram.com/kurnia.project/" target="_blank"><span class="button_label"><i class="fa fa-instagram" style="font-size:18px"> </i>   CEK AKTIFITAS KAMI </span></a> </div>
 							</div>
 						</div>
-						<div class="col-md-6 valign-top clearfix" data-col="one-second">
+						<div class="col-md-6 valign-top clearfix mt-5" data-col="one-second">
 							<div class="image_frame image_item no_link scale-with-grid no_border">
 								<div class="image_wrapper"><img class="scale-with-grid" src="content/kurnia/images/activity.png" alt="nursinghome-home-pic1" width="780" height="1131" /> </div>
 							</div>
@@ -197,7 +220,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="section mcb-section container" style="padding-top:120px;padding-bottom:80px">
+			<div  id="whykurnia"  class="section mcb-section container" style="padding-top:120px;padding-bottom:80px">
 				<div class="row">
 					<div class="col-md-6 valign-top clearfix" data-col="one-second" style="padding:0 10% 0 0">
 						<div class="column_attr clearfix mobile_align_center">
@@ -220,7 +243,7 @@
 					<div class="col-md-6 valign-top clearfix" data-col="one-second" style="padding:60px 4% 0">
 						<div class="row">
 							<div class="col-12 column-margin-10px">
-								<div class="column_attr clearfix bg-contain" style="background-image:url('content/kurnia/images/nursinghome-home-icon6.webp');background-repeat:no-repeat;background-position:left top;padding:15px 0 0px 70px;">
+								<div class="column_attr clearfix bg-contain" style="background-image:url('content/kurnia/images/konstruksi_2.png');background-repeat:no-repeat;background-position:left top;padding:15px 0 0px 70px;">
 									<h5>Konstruksi & Infrastruktur</h5> </div>
 							</div>
 							<div class="col-12">
@@ -228,7 +251,7 @@
 								<p> Kami memiliki rekam jejak yang kuat dalam membangun infrastruktur besar, mulai dari gedung komersial hingga pabrik dan jembatan. Kurnia Project selalu mengutamakan ketahanan dan kualitas dalam setiap proyek.</p>
 							</div>
 							<div class="col-12 column-margin-10px">
-								<div class="column_attr clearfix bg-contain" style="background-image:url('content/kurnia/images/nursinghome-home-icon7.webp');background-repeat:no-repeat;background-position:left top;padding:15px 0 0px 70px;">
+								<div class="column_attr clearfix bg-contain" style="background-image:url('content/kurnia/images/desain_2.png');background-repeat:no-repeat;background-position:left top;padding:15px 0 0px 70px;">
 									<h5>Desain Interior & Furnishing</h5> </div>
 							</div>
 							<div class="col-12">
@@ -236,7 +259,7 @@
 								<p> Dari konsep hingga implementasi, tim desainer kami menghidupkan visi Anda, menciptakan ruang yang estetis, nyaman, dan fungsional sesuai dengan kebutuhan pribadi maupun bisnis Anda. </p>
 							</div>
 							<div class="col-12 column-margin-10px">
-								<div class="column_attr clearfix bg-contain" style="background-image:url('content/kurnia/images/nursinghome-home-icon8.webp');background-repeat:no-repeat;background-position:left top;padding:15px 0 0px 70px;">
+								<div class="column_attr clearfix bg-contain" style="background-image:url('content/kurnia/images/management_2.png');background-repeat:no-repeat;background-position:left top;padding:15px 0 0px 70px;">
 									<h5>Manajemen Proyek Profesional</h5> </div>
 							</div>
 							<div class="col-12">
@@ -283,7 +306,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="section mcb-section" style="padding-top:120px;padding-bottom:120px">
+			<div  id="contacts"  class="section mcb-section" style="padding-top:120px;padding-bottom:120px">
 				<div class="container">
 					<div class="row">
 						<div class="col-12 text-center" data-col="one" style="padding:120px 60px 80px;background-color:#fff;background-image:url(content/kurnia/images/nursinghome-wrap-bg1.webp);background-repeat:no-repeat;background-position:center;border-radius: 28px; box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);">
@@ -305,7 +328,7 @@
 											<textarea placeholder="Pesan" id="message" name="Message" rows="5" maxlength="6000" required></textarea>
 										</div>
 										<div class="column one">
-											<button class="button-success" style="background-color:green" id="submit" type="submit">Kirim Whatsapp</button>
+											<button onclick="sendMessage()" class="button-success" style="background-color:green" id="submit" type="submit">Kirim Whatsapp</button>
 										</div>
 									</form>
 									<div id="success_message" style="display:none">
@@ -323,7 +346,20 @@
 		</div>
 		<?php 
 		include "footer.php"; 
-		?>
+		?><script>
+function sendMessage() {
+    const name = document.getElementById("name").value;
+    const message = document.getElementById("message").value;
+    // const phone = document.getElementById("phone").value;
+    
+    const phone = "6281296002517"; // Ganti dengan nomor tujuan
+    const url = `https://wa.me/${phone}?text=Halo%20nama%20saya%20${encodeURIComponent(name)},%20saya%20ingin%20menanyakan%20tentang%20${encodeURIComponent(message)}`;
+    
+    window.open(url, "_blank");
+}
+</script>
+
+
 </body>
 
 </html>

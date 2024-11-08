@@ -4,7 +4,7 @@
 					<div class="col-12">
 						<hr class="no_line" style="margin:0 auto 120px"> </div>
 					<div class="col-md-4">
-						<!-- <figure class="wp-block-image size-full wp-image-21"><img loading="lazy" width="142" height="48" src="content/nursinghome/images/nursinghome.webp" class="wp-image-150" /> </figure> -->
+						<figure class="wp-block-image size-full wp-image-21"><img loading="lazy" width="142" height="48" src="content/kurnia/images/kurnia_logo.png" class="wp-image-150" /> </figure>
 						<p>Mitra terpercaya dalam menciptakan solusi konstruksi dan desain yang inovatif. Dengan pengalaman lebih dari 10 tahun.</p>
 					</div>
 					<div class="col-md-2">
@@ -24,10 +24,12 @@
 						</p>
 					</div>
 					<div class="col-12">
-                        <i class="fa fa-instagram" style="font-size:30px"> </i> 
-                        <i class="fa fa-tiktok" style="font-size:30px"> </i> 
-                        <i class="fa fa-facebook" style="font-size:30px"> </i> 
-                        <i class="fa-brands fa-tiktok"></i>
+                       <a href="https://www.instagram.com/kurnia.project/" target="_blank">
+ 							<i class="fa fa-instagram"  style="font-size:30px"> </i> 
+					   </a>
+					     <a href="https://www.facebook.com/profile.php?id=61566782942967" target="_blank">
+ 							<i class="fa fa-facebook"  style="font-size:30px"> </i> 
+					   </a>
 						<hr class="no_line" style="margin:0 auto 80px"> </div>
 				</div>
 			</div>
