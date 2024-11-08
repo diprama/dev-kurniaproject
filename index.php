@@ -298,7 +298,7 @@
 						</div>
 						<div class="col-md-6 valign-middle clearfix" data-col="one-second" style="padding-top:10%;">
 							<div class="hover_box">
-								<a href="https://www.youtube.com/watch?v=2GonstCjvkY" rel="prettyphoto">
+								<a href="https://youtu.be/jE3aQ6fFA0k" rel="prettyphoto">
 									<div class="hover_box_wrapper"><img class="visible_photo scale-with-grid" src="content/kurnia/images/nursinghome-home-iconplay.webp" /><img class="hidden_photo scale-with-grid" src="content/kurnia/images/nursinghome-home-iconplay2.webp" /> </div>
 								</a>
 							</div>
@@ -322,7 +322,7 @@
 											<input placeholder="Nama" id="name" type="text" name="Name" required maxlength="50"> </div>
 										<!-- One Second (1/2) Column -->
 										<div class="column one-second">
-											<input placeholder="No Whatsapp" id="email" type="number" name="Email" required maxlength="50"> </div>
+											<input placeholder="Lokasi" id="email" type="text" name="Email" required maxlength="50"> </div>
 										
 										<div class="column one">
 											<textarea placeholder="Pesan" id="message" name="Message" rows="5" maxlength="6000" required></textarea>
@@ -350,10 +350,11 @@
 function sendMessage() {
     const name = document.getElementById("name").value;
     const message = document.getElementById("message").value;
+    const email = document.getElementById("email").value;
     // const phone = document.getElementById("phone").value;
     
     const phone = "6281296002517"; // Ganti dengan nomor tujuan
-    const url = `https://wa.me/${phone}?text=Halo%20nama%20saya%20${encodeURIComponent(name)},%20saya%20ingin%20menanyakan%20tentang%20${encodeURIComponent(message)}`;
+    const url = `https://wa.me/${phone}?text=Nama%3A%20${encodeURIComponent(name)}%0ALokasi%3A%20${encodeURIComponent(email)}%0AIsi%20Pesan%3A%20${encodeURIComponent(message)}`;
     
     window.open(url, "_blank");
 }
