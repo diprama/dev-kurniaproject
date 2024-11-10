@@ -1,3 +1,53 @@
+<style>
+	.social-icons a {
+    margin-right: 15px; /* Jarak antara ikon */
+    text-decoration: none;
+}
+
+.social-icons a:last-child {
+    margin-right: 0; /* Menghapus margin pada ikon terakhir */
+}
+
+/* Gaya untuk modal dan video */
+.video-modal {
+    display: none; /* Mulanya disembunyikan */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Lebih gelap agar lebih jelas */
+    z-index: 1000;
+}
+
+.video-modal iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.video-modal .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 35px;
+    color: #fff;
+    cursor: pointer;
+}
+</style>
+
+
+<!-- Modal overlay untuk video -->
+<div id="videoModal" class="video-modal">
+    <span class="close" onclick="closeVideoModal()">&times;</span>
+    <iframe id="videoFrame" src="" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
 <footer id="Footer" class="clearfix">
 			<div class="container">
 				<div class="row">
@@ -13,24 +63,22 @@
 						<p> <a href="interior.php">Interior Design</a>
 							<br> <a href="construction.php">Construction</a>
 							<br> <a href="furniture.php">Furniture</a>
-							<br> <a href="porto.php">Porto</a> 
 						</p>
 					</div>
-					<div class="col-12">
-                       <a href="https://www.instagram.com/kurnia.project/" target="_blank">
- 							<i class="fa fa-instagram"  style="font-size:30px"> </i> 
-					   </a>
-					   <a href="https://www.tiktok.com/@kurnia.project">
-						<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-tiktok" viewBox="0 1 16 22">
-							<path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+					<div class="col-12 social-icons">
+						<a href="https://www.instagram.com/kurnia.project/" target="_blank">
+							<i class="fa fa-instagram" style="font-size:30px"></i>
+						</a>
+						<a href="https://www.tiktok.com/@kurnia.project" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-tiktok" viewBox="0 1 16 22">
+								<path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
 							</svg>
-					   </a>
-					     <a href="https://www.facebook.com/profile.php?id=61566782942967" target="_blank">
- 							<i class="fa fa-facebook"  style="font-size:30px"> </i> 
-					   </a>
-					   
-						<hr class="no_line" style="margin:0 auto 80px"> </div>
-				</div>
+						</a>
+						<a href="https://www.facebook.com/profile.php?id=61566782942967" target="_blank">
+							<i class="fa fa-facebook" style="font-size:30px"></i>
+						</a>
+						<hr class="no_line" style="margin:0 auto 10px">
+					</div>
 			</div>
 			<div class="footer_copy">
 				<div class="container">
@@ -107,3 +155,21 @@
 		revinit_revslider11();
 	}
 	</script>
+
+	
+
+<script>
+function openVideoModal(videoId) {
+    const videoModal = document.getElementById("videoModal");
+    const videoFrame = document.getElementById("videoFrame");
+    videoFrame.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+    videoModal.style.display = "block";
+}
+
+function closeVideoModal() {
+    const videoModal = document.getElementById("videoModal");
+    const videoFrame = document.getElementById("videoFrame");
+    videoModal.style.display = "none";
+    videoFrame.src = ""; // Menghapus src untuk menghentikan video
+}
+</script>

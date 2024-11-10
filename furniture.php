@@ -47,7 +47,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3" data-col="one-fourth" style="padding:0 1%">
+					<div class="col-md-3" data-col="one-fourth" style="padding:0 1% 30px">
 						<hr class="no_line" style="margin: 0 auto 60px auto" />
 						<div class="hover_color align_" style="background-color:#fffbe2;border-radius: 28px; box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1); overflow: hidden;" ontouchstart="this.classList.toggle('hover');">
 							<div class="hover_color_bg" style="background-color:#fff;border-width:2px;">
@@ -62,7 +62,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3" data-col="one-fourth" style="padding:0 1%">
+					<div class="col-md-3" data-col="one-fourth" style="padding:0 1% 30px">
 						<div class="hover_color align_" style="background-color:#f2f1fe;border-radius: 28px; box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1); overflow: hidden;" ontouchstart="this.classList.toggle('hover');">
 							<div class="hover_color_bg" style="background-color:#fff;border-width:2px;">
 								<a href="#">
@@ -114,12 +114,12 @@
 							</div>
 						</div>
 						<div class="col-md-6 valign-middle clearfix" data-col="one-second" style="padding-top:10%;">
-							<div class="hover_box">
-								<a href="https://www.youtube.com/watch?v=2GonstCjvkY" rel="prettyphoto">
-									<div class="hover_box_wrapper"><img class="visible_photo scale-with-grid" src="content/kurnia/images/nursinghome-home-iconplay.webp" /><img class="hidden_photo scale-with-grid" src="content/kurnia/images/nursinghome-home-iconplay2.webp" /> </div>
-								</a>
+							<div class="hover_box" onclick="openVideoModal('jE3aQ6fFA0k')">
+								<div class="hover_box_wrapper">
+									<img class="visible_photo scale-with-grid" src="content/kurnia/images/nursinghome-home-iconplay.webp" />
+									<img class="hidden_photo scale-with-grid" src="content/kurnia/images/nursinghome-home-iconplay2.webp" /> 
+								</div>
 							</div>
-						</div>
 					</div>
 				</div>
 			</div>

@@ -784,7 +784,7 @@ a.content_link,
   overflow: hidden;
 }
 .hover_color:hover .hover_color_bg {
-  background-color: #fffbe2;
+  background-color: #97e2e2;
   border-width: 2px;
 }
 @media only screen and (max-width: 767px) {

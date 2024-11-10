@@ -37,7 +37,7 @@
 			<div class="section mcb-section equal-height-wrap full-width bg-contain" style="padding-bottom:80px;background-image:url(images/nursinghome-section-bg1.webp);background-repeat:no-repeat;background-position:right top">
 				<div class="row">
 
-					<div class="offset-1 col-md-6" data-col="two-fifth" style="padding:5% 3% 0">
+					<div class=" col-md-6" data-col="two-fifth" style="padding:10% 3% ">
 						<div class="row">
 							<div class="col-md-9">
 								<div class="column_attr clearfix mobile_align_center">
@@ -49,7 +49,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 valign-middle clearfix" data-col="one-second" style="padding:0 40px">
+					<div class="col-md-5 valign-middle clearfix" data-col="one-second" style="padding:0 0px">
 						<div class="image_frame image_item no_link scale-with-grid text-right no_border">
 							<div class="image_wrapper"><img src="content/kurnia/images/construction.png" alt="nursinghome-about-pic1" width="780" height="578" /> </div>
 							<!-- <div class="image_wrapper"><img src="content/kurnia/images/interior_1.png" alt="nursinghome-about-pic1" width="780" height="578" /> </div> -->
@@ -75,6 +75,7 @@
 								</div>
 							</div>
 						</div>
+						
 						<div class="col-md-4" data-col="one-third">
 							<div class="row">
 								<div class="col-md-3 column_column">
@@ -130,12 +131,12 @@
 							</div>
 						</div>
 						<div class="col-md-6 valign-middle clearfix" data-col="one-second" style="padding-top:10%;">
-							<div class="hover_box">
-								<a href="https://www.youtube.com/watch?v=2GonstCjvkY" rel="prettyphoto">
-									<div class="hover_box_wrapper"><img class="visible_photo scale-with-grid" src="content/kurnia/images/nursinghome-home-iconplay.webp" /><img class="hidden_photo scale-with-grid" src="content/kurnia/images/nursinghome-home-iconplay2.webp" /> </div>
-								</a>
+							<div class="hover_box" onclick="openVideoModal('jE3aQ6fFA0k')">
+								<div class="hover_box_wrapper">
+									<img class="visible_photo scale-with-grid" src="content/kurnia/images/nursinghome-home-iconplay.webp" />
+									<img class="hidden_photo scale-with-grid" src="content/kurnia/images/nursinghome-home-iconplay2.webp" /> 
+								</div>
 							</div>
-						</div>
 					</div>
 				</div>
 			</div>

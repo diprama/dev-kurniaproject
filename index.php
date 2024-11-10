@@ -5,8 +5,8 @@
 <!--[if IE 9]><html class="no-js lt-ie10"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js">
+
 <!--<![endif]-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <head>
 	<!-- Basic Page Needs -->
 	<meta charset="utf-8">
@@ -101,25 +101,25 @@
 									<!--
 
 										-->
-									<rs-layer id="slider-1-slide-1-layer-9" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="x:c;xo:330px,330px,0,330px;y:t,t,b,b;yo:200px,200px,385px,385px;" data-text="w:normal;s:70;l:92,92,90,90;fw:300;" data-frame_999="o:0;st:w;" style="z-index:16;font-family:'Manrope';"> Rancang </rs-layer>
+									<rs-layer id="slider-1-slide-1-layer-9" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="x:c;xo:330px,330px,0,330px;y:t,t,b,b;yo:200px,200px,385px,385px;" data-text="w:normal;s:70;l:92,92,300,90;fw:100;" data-frame_999="o:0;st:w;" style="z-index:16;font-family:'Manrope';"> Rancang </rs-layer>
 									<!--
 
 										-->
-									<rs-layer id="slider-1-slide-1-layer-10" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="x:c;xo:330px,310px,0,310px;y:t,t,b,b;yo:300px,300px,294px,294px;" data-text="w:normal;s:70;l:92,92,90,90;fw:800;" data-frame_999="o:0;st:w;" style="z-index:15;font-family:'Manrope';"> Rumah Impianmu </rs-layer>
+									<rs-layer id="slider-1-slide-1-layer-10" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="x:c;xo:480px,310px,0,310px;y:t,t,b,b;yo:300px,300px,294px,294px;" data-text="w:normal;s:70;l:92,92,300,90;fw:800;" data-frame_999="o:0;st:w;" style="z-index:15;font-family:'Manrope';"> Rumah Impianmu </rs-layer>
 
 									<!--
 
-										--><a id="slider-1-slide-1-layer-11" class="rs-layer rev-btn" href="#contacts" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:890px,890px,0,890px;y:t,t,b,b;yo:430px,460px,224px,224px;" data-text="w:normal;s:18,18,25,25;l:40,40,25,25;fw:800;" data-dim="minh:0px,0px,none,0px;" data-padding="t:5,5,10,10;r:35,35,32,32;b:5,5,10,10;l:35,35,32,32;" data-border="bor:36px,36px,36px,36px;" data-frame_999="o:0;st:w;" data-frame_hover="c:#fff;bgc:#6660dc;gs:sliding;bor:36px,36px,36px,36px;bri:120%;" style="z-index:20;background-color:#FF6600;font-family:'Manrope';"> Informasi lebih lanjut </a>
+										--><a id="slider-1-slide-1-layer-11" class="rs-layer rev-btn" href="#contacts" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:890px,890px,0,890px;y:t,t,b,b;yo:430px,460px,224px,224px;" data-text="w:normal;s:18,18,25,25;l:40,40,120,120;fw:800;" data-dim="minh:0px,0px,none,0px;" data-padding="t:5,5,10,10;r:35,35,32,32;b:5,5,10,10;l:35,35,32,32;" data-border="bor:36px,36px,36px,36px;" data-frame_999="o:0;st:w;" data-frame_hover="c:#fff;bgc:#6660dc;gs:sliding;bor:36px,36px,200px,36px;bri:120%;" style="z-index:20;background-color:#FF6600;font-family:'Manrope';"> Informasi lebih lanjut </a>
 									<!--
 
-										--><a id="slider-1-slide-1-layer-12" class="rs-layer" href="#contacts" target="_self" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:990px,1200px,0,1200px;y:t,t,b,b;yo:560px,470px,154px,154px;" data-text="w:normal;s:18,18,20,20;l:25,25,24,24;fw:800;" data-border="bos:solid;boc:#000;bow:0,0,2px,0;" data-frame_999="o:0;st:w;" style="z-index:21;font-family:'Manrope';">Konsultasi? Hubungi Kita </a>
+										--><a id="slider-1-slide-1-layer-12" class="rs-layer" href="#contacts" target="_self" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:1200px,1200px,0,1200px;y:t,t,b,b;yo:435px,470px,154px,154px;" data-text="w:normal;s:18,18,20,20;l:25,25,24,24;fw:800;" data-border="bos:solid;boc:#000;bow:0,0,2px,0;" data-frame_999="o:0;st:w;" style="z-index:21;font-family:'Manrope';">Konsultasi? Hubungi Kita </a>
 									<!--
 
 										-->
 									<rs-layer id="slider-1-slide-1-layer-13" data-type="image" data-rsp_ch="on" data-xy="xo:890px,890px,240px,240px;y:t,t,b,b;yo:568px,568px,64px,64px;" data-text="w:normal;s:20,20,9,9;l:0,0,12,12;" data-dim="w:72px,72px,60px,60px;h:72px,72px,60px,60px;" data-frame_999="o:0;st:w;" style="z-index:22;"><img src="content/kurnia/images/dummy.png" class="tp-rs-img rs-lazyload" width="72" height="72" data-lazyload="content/kurnia/images/nursinghome-home-icon1.webp"> </rs-layer>
 									<!--
 
-										--><a id="slider-1-slide-1-layer-14" class="rs-layer" href="#" target="_self" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="xo:990px,1200px,320px,320px;y:t,t,b,b;yo:620px,620px,64px,64px;" data-text="w:normal;s:20,20,24,24;l:20,20,24,24;fw:700;" data-frame_999="o:0;st:w;" style="z-index:18;font-family:'Manrope';">+62 812-9600-2517 </a>
+										--><a id="slider-1-slide-1-layer-14" class="rs-layer" href="#" target="_self" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="xo:980px,1200px,320px,320px;y:t,t,b,b;yo:600px,620px,64px,64px;" data-text="w:normal;s:20,20,24,24;l:20,20,45,45;fw:700;" data-frame_999="o:0;st:w;" style="z-index:18;font-family:'Manrope';">+62 812-9600-2517 </a>
 									<!--
 										-->
 								</rs-slide>
@@ -146,7 +146,7 @@
 				<div class="row text-center">
 					<div class="col-12">
 						<hr class="no_line" style="margin:0 auto 20px"> </div>
-					<div class="col-md-4" data-col="one-third" style="padding:0 2%">
+					<div class="col-md-4" data-col="one-third" style="padding:0 2% 20px">
 						<div class="hover_color">
 							<div class="hover_color_bg">
 								<a href="interior.php">
@@ -159,7 +159,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4" data-col="one-third" style="padding:0 2%">
+					<div class="col-md-4" data-col="one-third" style="padding:0 2% 20px">
 						<div class="hover_color">
 							<div class="hover_color_bg">
 								<a href="construction.php">
@@ -172,7 +172,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4" data-col="one-third" style="padding:0 2%">
+					<div class="col-md-4" data-col="one-third" style="padding:0 2% 20px">
 						<div class="hover_color">
 							<div class="hover_color_bg">
 								<a href="furniture.php">
@@ -297,10 +297,11 @@
 							</div>
 						</div>
 						<div class="col-md-6 valign-middle clearfix" data-col="one-second" style="padding-top:10%;">
-							<div class="hover_box">
-								<a href="https://youtu.be/jE3aQ6fFA0k" rel="prettyphoto">
-									<div class="hover_box_wrapper"><img class="visible_photo scale-with-grid" src="content/kurnia/images/nursinghome-home-iconplay.webp" /><img class="hidden_photo scale-with-grid" src="content/kurnia/images/nursinghome-home-iconplay2.webp" /> </div>
-								</a>
+							<div class="hover_box" onclick="openVideoModal('jE3aQ6fFA0k')">
+								<div class="hover_box_wrapper">
+									<img class="visible_photo scale-with-grid" src="content/kurnia/images/nursinghome-home-iconplay.webp" />
+									<img class="hidden_photo scale-with-grid" src="content/kurnia/images/nursinghome-home-iconplay2.webp" /> 
+								</div>
 							</div>
 						</div>
 					</div>
@@ -325,7 +326,10 @@
 											<input placeholder="Lokasi" id="email" type="text" name="Email" required maxlength="50"> </div>
 										
 										<div class="column one">
-											<textarea placeholder="Pesan" id="message" name="Message" rows="5" maxlength="6000" required></textarea>
+											<textarea placeholder="Pesan" id="message" name="Message" rows="5" maxlength="6000" required>
+hallo saya menghubungi anda melalui Website, saya mau bertanya..
+
+											</textarea>
 										</div>
 										<div class="column one">
 											<button onclick="sendMessage()" class="button-success" style="background-color:green" id="submit" type="submit">Kirim Whatsapp</button>
@@ -344,6 +348,9 @@
 				</div>
 			</div>
 		</div>
+
+
+
 		<?php 
 		include "footer.php"; 
 		?><script>
@@ -354,11 +361,19 @@ function sendMessage() {
     // const phone = document.getElementById("phone").value;
     
     const phone = "6281296002517"; // Ganti dengan nomor tujuan
+
+  // Validasi jika name, message, atau email kosong
+    if (!name || !message || !email) {
+        alert("Harap isi semua kolom sebelum mengirim pesan.");
+        return; // Menghentikan proses jika ada kolom yang kosong
+    }
+
     const url = `https://wa.me/${phone}?text=Nama%3A%20${encodeURIComponent(name)}%0ALokasi%3A%20${encodeURIComponent(email)}%0AIsi%20Pesan%3A%20${encodeURIComponent(message)}`;
     
     window.open(url, "_blank");
 }
 </script>
+
 
 
 </body>
