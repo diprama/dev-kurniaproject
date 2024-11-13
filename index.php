@@ -8,6 +8,8 @@
 
 <!--<![endif]-->
 <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<!-- Basic Page Needs -->
 	<meta charset="utf-8">
 	<title>Kurnia Project</title>
@@ -57,6 +59,7 @@
 				
 			</header>
 			<div id="home" class="mfn-main-slider mfn-rev-slider">
+				
 					<!-- START Home Nursinghome REVOLUTION SLIDER 6.5.5 -->
 					<p class="rs-p-wp-fix"></p>
 					<rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
@@ -101,18 +104,18 @@
 									<!--
 
 										-->
-									<rs-layer id="slider-1-slide-1-layer-9" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="x:c;xo:330px,330px,0,330px;y:t,t,b,b;yo:200px,200px,385px,385px;" data-text="w:normal;s:70;l:92,92,300,90;fw:100;" data-frame_999="o:0;st:w;" style="z-index:16;font-family:'Manrope';"> Rancang </rs-layer>
+									<rs-layer id="slider-1-slide-1-layer-9" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="x:c;xo:250px,330px,0,330px;y:t,t,b,b;yo:200px,200px,385px,385px;" data-text="w:normal;s:70;l:92,92,300,90;fw:100;" data-frame_999="o:0;st:w;" style="z-index:16;font-family:'Manrope';"> Rancang </rs-layer>
 									<!--
 
 										-->
-									<rs-layer id="slider-1-slide-1-layer-10" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="x:c;xo:480px,310px,0,310px;y:t,t,b,b;yo:300px,300px,294px,294px;" data-text="w:normal;s:70;l:92,92,300,90;fw:800;" data-frame_999="o:0;st:w;" style="z-index:15;font-family:'Manrope';"> Rumah Impianmu </rs-layer>
+									<rs-layer id="slider-1-slide-1-layer-10" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="x:c;xo:400px,310px,0,310px;y:t,t,b,b;yo:300px,300px,294px,294px;" data-text="w:normal;s:70;l:92,92,300,90;fw:800;" data-frame_999="o:0;st:w;" style="z-index:15;font-family:'Manrope';"> Rumah Impianmu </rs-layer>
 
 									<!--
 
-										--><a id="slider-1-slide-1-layer-11" class="rs-layer rev-btn" href="#contacts" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:890px,890px,0,890px;y:t,t,b,b;yo:430px,460px,224px,224px;" data-text="w:normal;s:18,18,25,25;l:40,40,120,120;fw:800;" data-dim="minh:0px,0px,none,0px;" data-padding="t:5,5,10,10;r:35,35,32,32;b:5,5,10,10;l:35,35,32,32;" data-border="bor:36px,36px,36px,36px;" data-frame_999="o:0;st:w;" data-frame_hover="c:#fff;bgc:#6660dc;gs:sliding;bor:36px,36px,200px,36px;bri:120%;" style="z-index:20;background-color:#FF6600;font-family:'Manrope';"> Informasi lebih lanjut </a>
+										--><a id="slider-1-slide-1-layer-11" class="rs-layer rev-btn" href="#contacts" target="_self" data-type="button" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:810px,890px,0,890px;y:t,t,b,b;yo:430px,460px,224px,224px;" data-text="w:normal;s:18,18,25,25;l:40,40,120,120;fw:800;" data-dim="minh:0px,0px,none,0px;" data-padding="t:5,5,10,10;r:35,35,32,32;b:5,5,10,10;l:35,35,32,32;" data-border="bor:36px,36px,36px,36px;" data-frame_999="o:0;st:w;" data-frame_hover="c:#1a1a1c;bgc:#97E2E2;gs:sliding;bor:36px,36px,36px,36px;bri:120%;" style="z-index:20;background-color:#FF6600;font-family:'Manrope';"> Informasi lebih lanjut </a>
 									<!--
 
-										--><a id="slider-1-slide-1-layer-12" class="rs-layer" href="#contacts" target="_self" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:1200px,1200px,0,1200px;y:t,t,b,b;yo:435px,470px,154px,154px;" data-text="w:normal;s:18,18,20,20;l:25,25,24,24;fw:800;" data-border="bos:solid;boc:#000;bow:0,0,2px,0;" data-frame_999="o:0;st:w;" style="z-index:21;font-family:'Manrope';">Konsultasi? Hubungi Kita </a>
+										--><a id="slider-1-slide-1-layer-12" class="rs-layer" href="#contacts" target="_self" data-type="text" data-color="#000000" data-rsp_ch="on" data-xy="x:l,l,c,c;xo:1100px,1200px,0,1200px;y:t,t,b,b;yo:435px,470px,154px,154px;" data-text="w:normal;s:18,18,20,20;l:25,25,24,24;fw:800;" data-border="bos:solid;boc:#000;bow:0,0,2px,0;" data-frame_999="o:0;st:w;" style="z-index:21;font-family:'Manrope';">Konsultasi? Hubungi Kita </a>
 									<!--
 
 										-->
@@ -326,10 +329,7 @@
 											<input placeholder="Lokasi" id="email" type="text" name="Email" required maxlength="50"> </div>
 										
 										<div class="column one">
-											<textarea placeholder="Pesan" id="message" name="Message" rows="5" maxlength="6000" required>
-hallo saya menghubungi anda melalui Website, saya mau bertanya..
-
-											</textarea>
+											<textarea placeholder="Pesan" id="message" name="Message" rows="5" maxlength="6000" required></textarea>
 										</div>
 										<div class="column one">
 											<button onclick="sendMessage()" class="button-success" style="background-color:green" id="submit" type="submit">Kirim Whatsapp</button>
@@ -358,17 +358,27 @@ function sendMessage() {
     const name = document.getElementById("name").value;
     const message = document.getElementById("message").value;
     const email = document.getElementById("email").value;
-    // const phone = document.getElementById("phone").value;
-    
     const phone = "6281296002517"; // Ganti dengan nomor tujuan
 
-  // Validasi jika name, message, atau email kosong
-    if (!name || !message || !email) {
-        alert("Harap isi semua kolom sebelum mengirim pesan.");
-        return; // Menghentikan proses jika ada kolom yang kosong
+    // Validasi jika name, message, atau email kosong
+    // if (!name && !message && !email) {
+    //     alert("Harap isi setidaknya satu kolom sebelum mengirim pesan.");
+    //     return; // Menghentikan proses jika semua kolom kosong
+    // }
+
+    let textMessage = "Hallo, saya menghubungi anda melalui Website, saya mau bertanya..";
+
+    if (name) {
+        textMessage += `%0ANama: ${encodeURIComponent(name)}`;
+    }
+    if (email) {
+        textMessage += `%0ALokasi: ${encodeURIComponent(email)}`;
+    }
+    if (message) {
+        textMessage += `%0AIsi Pesan: ${encodeURIComponent(message)}`;
     }
 
-    const url = `https://wa.me/${phone}?text=Nama%3A%20${encodeURIComponent(name)}%0ALokasi%3A%20${encodeURIComponent(email)}%0AIsi%20Pesan%3A%20${encodeURIComponent(message)}`;
+    const url = `https://wa.me/${phone}?text=${textMessage}`;
     
     window.open(url, "_blank");
 }

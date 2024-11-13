@@ -34,7 +34,8 @@
 			?>
 		</div>
 		<div id="Content">
-			<div class="section mcb-section equal-height-wrap full-width bg-contain" style="padding-bottom:80px;background-image:url(images/nursinghome-section-bg1.webp);background-repeat:no-repeat;background-position:right top">
+			<div class="container">
+			<div class="section mcb-section equal-height-wrap full-width bg-contain" style="padding-top:30px;padding-bottom:80px;background-image:url(images/nursinghome-section-bg1.webp);background-repeat:no-repeat;background-position:right top">
 				<div class="row">
 					<div class="col-md-6 valign-middle clearfix" data-col="one-second" style="padding:0 40px">
 						<div class="image_frame image_item no_link scale-with-grid text-right no_border">
@@ -42,7 +43,7 @@
 							<!-- <div class="image_wrapper"><img src="content/kurnia/images/interior_1.png" alt="nursinghome-about-pic1" width="780" height="578" /> </div> -->
 						</div>
 					</div>
-					<div class="col-md-5" data-col="two-fifth" style="padding:5% 3% 0">
+					<div class="col-md-6" data-col="two-fifth" style="padding:5% 0% 0">
 						<div class="row">
 							<div class="col-md-9">
 								<div class="column_attr clearfix mobile_align_center">
@@ -54,6 +55,7 @@
 						</div>
 					</div>
 				</div>
+			</div>
 			</div>
 			
 		   <div class="section mcb-section equal-height-wrap bg-cover" style="padding-top:120px;padding-bottom:80px;background-image:url(content/kurnia/images/thumbnail.png);background-repeat:no-repeat;background-position:center top">

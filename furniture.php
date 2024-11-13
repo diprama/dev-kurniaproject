@@ -36,14 +36,14 @@
 		<div id="Content">
 			
 
-					<div class="section mcb-section container" style="padding-top:120px;padding-bottom:80px">
+			<div class="section mcb-section container" style="padding-top:20px;padding-bottom:20px">
 				<div class="row">
 					<div class="col-12" data-col="one">
 						<div class="row">
 							<div class="col-md-12">
 								<div class="column_attr clearfix text-center">
 									<h2>Buat Furnitur Kustom Impian Anda <b>Desain Unik yang Sesuai dengan Gaya dan Kebutuhan Anda</b></h2>
-									<hr class="no_line" style="margin: 0 auto 40px auto" /> </div>
+									<hr class="no_line" style="margin: 0 auto 20px auto" /> </div>
 							</div>
 						</div>
 					</div>
@@ -56,8 +56,7 @@
 										<hr class="no_line" style="margin: 0 auto 20px auto" />
 										<h5 style="color: #FF6600">Desain Sesuai Permintaan </h5>
 										<p style="color: #8f8f8f;"> Kami menawarkan layanan pembuatan furnitur kustom untuk mewujudkan ide dan konsep unik Anda. Setiap detail dapat disesuaikan, mulai dari ukuran, bahan, hingga warna, agar sesuai dengan ruang dan gaya hidup Anda. </p>
-										<hr class="no_line" style="margin: 0 auto 10px auto" /> <span class="single_icon themecolor"><i style="font-size:25px;line-height:25px;" class="fas fa-arrow-right
-																	"></i></span> </div>
+										<hr class="no_line" style="margin: 0 auto 10px auto" /> <span class="single_icon themecolor"></span> </div>
 								</a>
 							</div>
 						</div>
@@ -70,8 +69,7 @@
 										<hr class="no_line" style="margin: 0 auto 20px auto" />
 										<h5 style="color: #FF6600">Konsultasi dan Dukungan Ahli</h5>
 										<p style="color: #8f8f8f;">Bingung memulai dari mana? Tim desainer kami siap membantu Anda dalam proses desain dan pemilihan material untuk menciptakan furnitur yang benar-benar personal dan fungsional. </p>
-										<hr class="no_line" style="margin: 0 auto 10px auto" /> <span class="single_icon themecolor"><i style="font-size:25px;line-height:25px;" class="fas fa-arrow-right
-																	"></i></span> </div>
+										<hr class="no_line" style="margin: 0 auto 10px auto" /> <span class="single_icon themecolor"></span> </div>
 								</a>
 							</div>
 						</div>

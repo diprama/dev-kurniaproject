@@ -6,11 +6,20 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js">
 <!--<![endif]-->
-
+<style>
+	@media (max-width: 768px) {
+    .column_attr h3.themecolor {
+        margin-bottom: 20px; /* Atur jarak bawah sesuai kebutuhan */
+    }
+    .col-md-4 {
+        margin-bottom: 20px; /* Menambah jarak antar kolom di mobile */
+    }
+}
+</style>
 <head>
 	<!-- Basic Page Needs -->
 	<meta charset="utf-8">
-	<title>Kurnia Project - Construction</title>
+	<titl>Kurnia Project - Construction</titl>e
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<!-- Mobile Specific Metas -->
@@ -34,31 +43,25 @@
 			?>
 		</div>
 		<div id="Content">
-			<div class="section mcb-section equal-height-wrap full-width bg-contain" style="padding-bottom:80px;background-image:url(images/nursinghome-section-bg1.webp);background-repeat:no-repeat;background-position:right top">
-				<div class="row">
-
-					<div class=" col-md-6" data-col="two-fifth" style="padding:10% 3% ">
-						<div class="row">
-							<div class="col-md-9">
-								<div class="column_attr clearfix mobile_align_center">
-									<h1><b>Membangun Masa Depan</b></h1>
+			<div class="container" style="padding-top:30px;">
+			<div class="row">
+				<div class="col-md-6 valign-top clearfix" data-col="one-second" style="padding:0 1%">
+							<div class="column_attr clearfix mobile_align_center">
+																<h1><b>Membangun Masa Depan</b></h1>
 									<h1>Konstruksi yang Tangguh dan Berkelanjutan</h1>
-									<hr class="no_line" style="margin: 0 auto 20px auto" />
 									<p> Dengan pengalaman dan keahlian yang mumpuni, kami berkomitmen untuk menghadirkan solusi konstruksi berkualitas yang memenuhi standar tinggi. Baik proyek skala besar maupun kecil, kami memastikan setiap detail dikerjakan dengan cermat dan tepat waktu, sesuai dengan kebutuhan klien. Kami percaya bahwa konstruksi yang kokoh adalah fondasi untuk masa depan yang lebih baik. </p>
-								</div>
+								
 							</div>
 						</div>
-					</div>
-					<div class="col-md-5 valign-middle clearfix" data-col="one-second" style="padding:0 0px">
-						<div class="image_frame image_item no_link scale-with-grid text-right no_border">
-							<div class="image_wrapper"><img src="content/kurnia/images/construction.png" alt="nursinghome-about-pic1" width="780" height="578" /> </div>
-							<!-- <div class="image_wrapper"><img src="content/kurnia/images/interior_1.png" alt="nursinghome-about-pic1" width="780" height="578" /> </div> -->
+						<div class="col-md-6 valign-top clearfix" data-col="one-second">
+							<div class="image_frame image_item no_link scale-with-grid no_border">
+								<div class="image_wrapper"><img class="scale-with-grid" src="content/kurnia/images/construction.png" alt="nursinghome-ourcenter-pic2" width="780" height="635" /> </div>
+							</div>
 						</div>
-					</div>
-				</div>
 			</div>
+		</div>
 
-					<div class="section mcb-section" style="padding-top:120px;padding-bottom:80px;background-color:#f6f6f6;background-image:url(images/nursinghome-section-bg5.webp);background-repeat:no-repeat;background-position:left top">
+			<div class="section mcb-section" style="padding-top:120px;padding-bottom:80px;background-color:#f6f6f6;background-image:url(images/nursinghome-section-bg5.webp);background-repeat:no-repeat;background-position:left top">
 				<div class="container">
 					<div class="row">
 						<div class="col-12" data-col="one">

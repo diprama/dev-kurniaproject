@@ -75,7 +75,7 @@
 							</svg>
 						</a>
 						<a href="https://www.facebook.com/profile.php?id=61566782942967" target="_blank">
-							<i class="fa fa-facebook" style="font-size:30px"></i>
+							<i class="fa fa-facebook" style="font-size:27px"></i>
 						</a>
 						<hr class="no_line" style="margin:0 auto 10px">
 					</div>
